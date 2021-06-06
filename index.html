@@ -9,8 +9,9 @@ Coming soon
 <div id="node"></div>
 <?php
 $handle = fopen("codewizz999.github.io/package.json", "r");
-echo $handle;
-echo fread($handle,filesize("package.json"));
+$data = json_decode($handle);
+echo fread($data,filesize("package.json"));
+echo $data;
 fclose($handle);
 
 ?>
