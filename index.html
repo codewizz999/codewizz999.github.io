@@ -10,8 +10,10 @@ Coming soon
 <?php
 $handle = fopen("codewizz999.github.io/package.json", "r");
 echo $handle;
+echo fread($handle,filesize("package.json"));
+fclose($handle);
+
 ?>
 <script src="https://raw.githubusercontent.com/codewizz999/codewizz999.github.io/main/main.js"></script>
-<script src="https://raw.githubusercontent.com/codewizz999/codewizz999.github.io/main/rdb.js"></script>
 </body>
 </html>
