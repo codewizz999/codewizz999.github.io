@@ -8,13 +8,13 @@
 Coming soon
 <div id="node"></div>
 <?php
-$json = file_get_contents('./package.json');
+$myObj->name = "John";
+$myObj->age = 30;
+$myObj->city = "New York";
 
-//Decode JSON
-$json_data = json_decode($json,true);
+$myJSON = json_encode($myObj);
 
-//Print data
-echo "<h2>" . $json_data . "</h2>";
+echo $myJSON;
 ?>
 <script src="https://raw.githubusercontent.com/codewizz999/codewizz999.github.io/main/main.js"></script>
 </body>
