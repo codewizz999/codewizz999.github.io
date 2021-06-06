@@ -8,12 +8,13 @@
 Coming soon
 <div id="node"></div>
 <?php
-$handle = fopen("codewizz999.github.io/package.json", "r");
-$data = json_decode($handle);
-echo fread($data,filesize("package.json"));
-echo $data;
-fclose($handle);
+$json = file_get_contents('./package.json');
 
+//Decode JSON
+$json_data = json_decode($json,true);
+
+//Print data
+print_r($json_data);
 ?>
 <script src="https://raw.githubusercontent.com/codewizz999/codewizz999.github.io/main/main.js"></script>
 </body>
