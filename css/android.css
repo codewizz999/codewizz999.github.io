@@ -1,8 +1,12 @@
 body{
 font-size:10pt;
 }
- label{
-margin-left:5em;
+ #email{
+margin-left:2em;
+Padding-left:2em;
+}
+#password{
+margin-left:8em;
 Padding-left:2em;
 }
 input [type=text]{
