@@ -15,7 +15,7 @@ display: flex;
   flex-wrap: nowrap;
   
 }
-#nav ul li{
+#nav  li{
 text-decoration: none;
 }
 #content{
