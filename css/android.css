@@ -1,19 +1,21 @@
 body{
 font-size:10pt;
 }
- #email{
+ Label {
 margin-left:2em;
 Padding-left:2em;
 }
-#password{
+#pass{
 margin-left:8em;
 Padding-left:2em;
 }
-input [type=text]{
-width:120px;
-}
-input [type=password]{
-width:120px;
+#label ul.navl{
+text-align:center;
+flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+Padding-left:3em;
 }
 #header ul.navl{
 text-align:center;
