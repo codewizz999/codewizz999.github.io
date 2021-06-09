@@ -13,10 +13,11 @@ display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+
   
 }
-#nav  li{
-text-decoration: none;
+#nav  li {
+list-style: none;
 }
 #content{
 }
