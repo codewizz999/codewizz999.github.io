@@ -1,24 +1,7 @@
 body{
 font-size:10pt;
 }
- Label p span{
-Padding-left:4em;
-}
-#label ul.navl{
-text-align:center;
-flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-Padding-left:3em;
-}
-#header ul.navl{
-text-align:center;
-flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
+
 #nav ul.navl{
 display: flex;
   flex-direction: row;
@@ -26,8 +9,6 @@ display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-
-  
 }
  ul.navl{
 list-style-type: none;
