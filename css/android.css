@@ -1,8 +1,9 @@
 body{
 font-size:10pt;
 }
-#header label{
+ label{
 margin-left:5em;
+Padding-left:2em;
 }
 input [type=text]{
 width:120px;
@@ -10,15 +11,14 @@ width:120px;
 input [type=password]{
 width:120px;
 }
-#header ul{
-/*text-align:center;
+#header ul.navl{
+text-align:center;
 flex-direction: row;
-  align-content: space-between;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;*/
+  flex-wrap: nowrap;
 }
-#nav ul{
+#nav ul.navl{
 display: flex;
   flex-direction: row;
   align-content: space-between;
