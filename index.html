@@ -1,15 +1,121 @@
 
-
-<!DOCTYPE html>
 <html>
+
 <head>
-<title>Codewizz999 app</title>
+  <link rel="stylesheet" href="screen.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="android.css" media="only screen and (max-width: 600px)" />
+  <link rel="stylesheet" type="text/css" href="desktop.css" media="screen and (min-width: 601px)" />
+  <!--[if IE]>
+ <link rel="stylesheet" type="text/css" href="desktop.css" media="all" />
+ <![endif]-->
+  <meta name="viewport" content="user-scalable=no, width=device-width" />
+  <title>Codewizz99 solution app</title>
 </head>
+
 <body>
-<h1>codewizz999 solutions </h1>
-Coming soon
-<div id="node"></div>
-<div id="users"></div>
-<script src="https://raw.githubusercontent.com/codewizz999/codewizz999.github.io/main/main.js"></script>
+  <div class="fb-like" data-href="https://m.facebook.com/tatoonpolygamesdev/?_rdr" data-width="410px" data-layout="standard" data-action="like" data-size="small" data-share="true" style="position: absolute;
+   left: 0px;
+   top: 10em;
+   z-index: 0;
+   "> </div>
+  <div id="container">
+    <div id="header" style="position:fixed; width:100%; border-bottom: 2px solid green; height:150px; background-color:back; color:green ">
+      <h1>
+        <a href="./"><img src="https://www.countryflags.com/wp-content/uploads/zambia-flag-png-large.png " style="width:30px; height:18px;" />Codewizz999 Solutions</a>
+        <h1 style="position:absolute;top:4.77em; left:2em; color:white;">profile:</h1>
+        <div id="users" style="color:red;position:absolute;top:7.8em; left:8em;"></div>
+      </h1>
+      
+      <!--<button id="myDiv" onclick="myFunction()">
+     ...</buttoid/storage/emulated/0/php
+      </h1>
+    </div>
+    <div>
+      <div id="content">
+        <div id="navbar">
+          <ul>
+            <li> <a id="about" href="about.html">About</a></li>
+            <li><a id="games" href="games.html">Games</a></li>
+            <li><a id="dev" href="tips.html">Dev's</a></li>
+            <li><a id="close-log" onclick="cclose()">Login</a></li>
+          </ul>
+        </div>
+        <div id="reg-log" style="margin-top:10em;">
+          <div id="log" style="text-align:center;">
+            <h2 style="color:darkgreen;">Login in to your Account</h2>
+            <hr>
+            <form onsubmit="return false">
+              <div class="container">
+                <label for="uname"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" id="uname" name="uname" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" id="psw" name="psw" required>
+                <button id="frm-btn" onclick="Login()" type="submit">Login</button>
+            </form>
+          </div>
+          <button id='regy' onclick="regdiv()">Need an account Register</button>
+        </div>
+        <div id="reg" style="text-align:center; ">
+          <h2 style="color:orangered;">Register an Account</h2>
+          <hr>
+          <form onsubmit="return false" method="post" action="saveUser()">
+            <div class="container">
+              <label for="name"><b>Name</b></label>
+              <input type="text" placeholder="Enter Name" id="name" name="name" required>
+              <label for="uname"><b>Email</b></label>
+              <input type="text" placeholder="Enter name@email.com" id="unamee" name="unamee" required>
+              <label for="psww"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" id="psww" name="psww" required>
+              <button id="frm-btn" type="submit" onclick="register()">Submit</button>
+            </div>
+          </form>
+          <textarea id="textarea">
+
+          </textarea>
+          <button id='regy' onclick="logydiv()">have an account login </button>
+        </div>
+      </div>
+    </div>
+    <div id="sidebar">
+      <img alt="" src="https://scontent.flun1-2.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/116666631_182414523314897_7974913210505930967_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=85a577&efg=eyJpIjoidCJ9&_nc_eui2=AeFtabu4rWSErGIxMPmAF0QycVvhyaL1Z_xxW-HJovVn_JaF9hX5Ba5WSzCLrt98nUgNlDlAJDq0eF3eK31JMhPu&_nc_ohc=RMzKTW6ywDQAX-k4T2c&_nc_ht=scontent.flun1-2.fna&tp=14&oh=7e71caf780cdca038dfc5404316912df&oe=60DBE10A" style="border-radius:1em; width:60px; height:60px;" />
+      <p>
+        <h3>Codewizz999 solutions Brother Head Quarters and movement.</h3> hello and welcome am Alex presenter on codewizz999 solutions <p>I am github user and an app publisher you can view my <a href="about.html" style="color:blue">profile </a>for more details it says that.</p> You might be intrested in becoming a developer or passing time.
+        <a href="#" onclick="regdiv()" style="color:blue;"> playing games for free and get paid.</a>
+      </p>
+      <p>codewizz999 solutions has program where you may have a website and feature your games that you create and allow developer to assesse and tweak your games so that gamers can have smooth play, as community we will build that unit and allow our website to be great</p>
+      <p>One nation</p>
+    </div>
+    <div id="newslog">
+      <form onsubmit="return false">
+        <div class="container">
+          <h2> Newsletter</h2>
+          <h3 style="color:orangered;">Get good news in your inbox get tips tricks for your web apps sign up and become a developer. </h3>
+          <form onsubmit="return false">
+            <div class="container">
+              <label for="uname"><b>email</b></label>
+              <input type="text" placeholder="Enter email" id="uname" name="uname" required>
+              <button id="frm-btn" onclick="Login()" type="submit" style="color:white;border:2px solid white;" value="Subscribe">subscribe</button>
+          </form>
+        </div>
+    </div>
+    <?php echo "hello-world"; ?>
+    <div id="footer">
+      <!--<ul>
+ <li><a href="services=.html">Services</a></li>
+ <li><a href="about.html">About</a></li>
+ <li><a href="blog.html">Blog</a></li>
+ </ul>-->
+      <button id="button" onclick="loadDoc()" type="file">Send</button>
+      <p class="subtle">Codwizz999 Solutions, Inc.</p>
+    </div>
+  </div>
+ 
+  <script src="test.js"></script>
+  <script src="main.js"></script>
+  <script src="control.js"></script>
+  <script src="authent.js"></script>
+ 
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=1025478264618704&autoLogAppEvents=1" nonce="TNdyc6Ci"></script>
 </body>
+
 </html>
