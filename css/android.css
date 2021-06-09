@@ -1,13 +1,8 @@
 body{
 font-size:10pt;
 }
- Label {
-margin-left:2em;
-Padding-left:2em;
-}
-#pass{
-margin-left:8em;
-Padding-left:2em;
+ Label p span{
+Padding-left:4em;
 }
 #label ul.navl{
 text-align:center;
