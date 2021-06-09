@@ -16,8 +16,8 @@ display: flex;
 
   
 }
-#nav  li {
-list-style: none;
+#nav  ul{
+list-style-type: none;
 }
 #content{
 }
