@@ -16,7 +16,7 @@ display: flex;
 
   
 }
-#nav  ul{
+ ul.navl{
 list-style-type: none;
 }
 #content{
