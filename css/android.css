@@ -6,7 +6,7 @@ flex-direction: row;
   align-items: center;
   flex-wrap: nowrap;
 }
-#nav input{
+#nav ul input{
 display: flex;
   flex-direction: row;
   align-content: space-between;
