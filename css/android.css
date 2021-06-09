@@ -1,6 +1,12 @@
 
-#header{}
-#nav lable ul{
+#header input{
+flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+#nav input{
 display: flex;
   flex-direction: row;
   align-content: space-between;
