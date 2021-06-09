@@ -11,12 +11,12 @@ input [type=password]{
 width:120px;
 }
 #header ul{
-text-align:center;
+/*text-align:center;
 flex-direction: row;
   align-content: space-between;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap;*/
 }
 #nav ul{
 display: flex;
