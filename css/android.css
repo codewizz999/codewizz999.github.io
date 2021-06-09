@@ -1,5 +1,6 @@
 
 #header ul{
+text-align:center;
 flex-direction: row;
   align-content: space-between;
   justify-content: center;
