@@ -12,6 +12,7 @@ display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+padding-left:1em;
 }
  ul.navl{
 list-style-type: none;
