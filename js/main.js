@@ -18,7 +18,7 @@ function closenav(){
     }
 
 }
-function opennav(){
+function opennavv(){
   var x = document.getElementbyId("side-nav");
   var y = document.getElementById("content");
   if (x.style.width === "0" && y.style.width==="") {
