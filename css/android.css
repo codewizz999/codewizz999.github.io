@@ -14,6 +14,7 @@ display: flex;
 list-style-type: none;
 }
 #side-nav{
+display:none;
 height:100%;
 width:300px;
 position:fixed;
