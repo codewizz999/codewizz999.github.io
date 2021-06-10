@@ -8,27 +8,26 @@ document.getElementbyId("content").style.marginLeft="0px";
 function closenav(){
   var x = document.getElementbyId("side-nav");
   var y = document.getElementById("content");
-  if (x.style.width === "0" && y.style.marginLeft==="0") {
+  if (x.style.width === "none) {
   
-      y.style.marginLeft ="200px";
-       x.style.width="200px";
+      x.style.display="block";
+      
     } else {
-      x.style.width="0";
-      y.style.marginLeft="0px";
+      x.style.display="none";
+    
     }
 alert("close");
 }
 function opennav(){
   var x = document.getElementbyId("side-nav");
   var y = document.getElementById("content");
-  if (x.style.width === "0" && y.style.marginLeft==="0") {
+  if (x.style.width === "none) {
   
-      y.style.marginLeft ="200px";
-       x.style.width="200px";
+      x.style.display="block";
+      
     } else {
-      x.style.width="0";
-      y.style.marginLeft="0px";
+      x.style.display="none";
+    
     }
-
+alert("open");
 }
-alert("welcome to codwizz");
