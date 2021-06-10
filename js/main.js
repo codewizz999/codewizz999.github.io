@@ -27,7 +27,7 @@ function opennav(){
        x.style.width="200px";
     } else {
       x.style.width="0";
-      Y.style.marginLeft="0px";
+      Y.style.marginLeft="0px;
     }
 
 }
