@@ -36,6 +36,7 @@ Padding:8px 8px 8px 32px;
 }
 #side-nav #close-btn{
 top:0;
+right:2px;
 margin-left:200px;
 font-size:12pt;
 color:white;
