@@ -10,7 +10,7 @@ function closenav(){
   var y = document.getElementById("content");
   if (x.style.width === "none") {
   
-      x.style.display="block";
+      x.style.display="show";
       
     } else {
       x.style.display="none";
@@ -23,7 +23,7 @@ function opennav(){
   var y = document.getElementById("content");
   if (x.style.width === "none") {
   
-      x.style.display="block";
+      x.style.display="show";
       
     } else {
       x.style.display="none";
