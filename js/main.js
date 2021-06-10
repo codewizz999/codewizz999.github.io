@@ -6,30 +6,28 @@ document.getElementbyId("content").style.marginLeft="0px";
 
 }*/
 function closenav(){
-  var x = document.getElementbyId("navs");
+  var x = document.getElementbyId("side-nav");
   var y = document.getElementById("content");
-  if (x.style.display === "none" && y.style.display==="none") {
-    //y.style.display ="block";
-      x.style.display = "block";
-      y.style.marginLeft="200px";
-       x.style.width="250px";
+  if (x.style.width === "0" && y.style.width==="") {
+  
+      y.style.marginLeft ="200px";
+       x.style.width="200px";
     } else {
-      y.style.display ="none";
-      x.style.display = "none";
+      x.style.width="0";
+      Y.style.marginLeft="0px;
     }
 
 }
 function opennav(){
-  var x = document.getElementbyId("navs");
+  var x = document.getElementbyId("side-nav");
   var y = document.getElementById("content");
-  if (x.style.display === "none" && y.style.display==="none") {
-    //y.style.display ="block";
-      x.style.display = "block";
-      y.style.marginLeft="200px";
-       x.style.width="250px";
+  if (x.style.width === "0" && y.style.width==="") {
+  
+      y.style.marginLeft ="200px";
+       x.style.width="200px";
     } else {
-      y.style.display ="none";
-      x.style.display = "none";
+      x.style.width="0";
+      Y.style.marginLeft="0px;
     }
 
 }
