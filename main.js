@@ -38,3 +38,4 @@ function opennav(){
     }
 
 }
+alert("welcome to codwizz");
