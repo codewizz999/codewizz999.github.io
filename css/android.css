@@ -15,7 +15,7 @@ list-style-type: none;
 }
 #side-nav{
 height:100%;
-width:200px;
+width:0;
 position:fixed;
 z-index:1;
 top:0;
