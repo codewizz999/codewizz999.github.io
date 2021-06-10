@@ -8,7 +8,7 @@ document.getElementbyId("content").style.marginLeft="0px";
 function closenav(){
   var x = document.getElementbyId("side-nav");
   var y = document.getElementById("content");
-  if (x.style.width === "0" && y.style.width==="") {
+  if (x.style.width === "0" && y.style.marginLeft==="0") {
   
       y.style.marginLeft ="200px";
        x.style.width="200px";
@@ -21,7 +21,7 @@ function closenav(){
 function opennav(){
   var x = document.getElementbyId("side-nav");
   var y = document.getElementById("content");
-  if (x.style.width === "0" && y.style.width==="") {
+  if (x.style.width === "0" && y.style.marginLeft==="0") {
   
       y.style.marginLeft ="200px";
        x.style.width="200px";
