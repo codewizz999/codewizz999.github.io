@@ -13,6 +13,28 @@ display: flex;
  ul.navl{
 list-style-type: none;
 }
+#side-nav{
+height:100%;
+width:0;
+position:fixed;
+z-index:1;
+top:0;
+left:0;
+overflow-x:hidden;
+padding-top:60px;
+transition:0.5s;
+background-color:grey;
+}
+#side-nav span{
+display:block;
+Padding:8px 8px 8px 32px;
+}
+#side-nav #close-btn{
+top:0;
+right:25px;
+margin-left:50px;
+font-size:32pt;
+}
 #content{
 }
 #footer{
