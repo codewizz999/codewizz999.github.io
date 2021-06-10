@@ -1,6 +1,6 @@
 function closenav(){
   var x = document.getElementById("side-nav");
-  if (x.style.width === "none") {
+  if (x.style.display === "none") {
   
       x.style.display="block";
       
@@ -12,7 +12,7 @@ function closenav(){
 function opennav(){
   var x = document.getElementById("side-nav");
   
-  if (x.style.width === "none") {
+  if (x.style.display === "none") {
   
       x.style.display="block";
       
