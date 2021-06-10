@@ -16,7 +16,7 @@ function closenav(){
       x.style.width="0";
       y.style.marginLeft="0px";
     }
-
+alert("close");
 }
 function opennav(){
   var x = document.getElementbyId("side-nav");
