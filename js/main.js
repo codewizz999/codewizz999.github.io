@@ -18,7 +18,7 @@ function closenav(){
     }
 
 }
-function opennavv(){
+function opennav(){
   var x = document.getElementbyId("side-nav");
   var y = document.getElementById("content");
   if (x.style.width === "0" && y.style.width==="") {
@@ -27,7 +27,7 @@ function opennavv(){
        x.style.width="200px";
     } else {
       x.style.width="0";
-      Y.style.marginLeft="0px;
+      Y.style.marginLeft="0px";
     }
 
 }
