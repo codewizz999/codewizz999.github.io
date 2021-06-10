@@ -21,7 +21,7 @@ list-style-type: none;
 margin-left:12px;
 }
 #side-nav{
-
+align-content:center;
 display:none;
 height:100%;
 width:230px;
