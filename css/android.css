@@ -17,8 +17,11 @@ padding-left:1em;
  ul.navl{
 list-style-type: none;
 }
-#side-nav{
+#sid-nav label input{
 padding-left:20px;
+}
+#side-nav{
+
 display:none;
 height:100%;
 width:230px;
@@ -36,6 +39,7 @@ display:block;
 Padding:8px 8px 8px 32px;
 }
 #close-btn{
+
 top:0;
 right:2px;
 margin-left:200px;
