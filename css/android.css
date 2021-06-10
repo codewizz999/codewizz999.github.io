@@ -26,9 +26,9 @@ z-index:1;
 top:0;
 left:0;
 overflow-x:hidden;
-padding-top:60px;
+padding-top:20px;
 transition:0.5s;
-background-color:grey;
+background-color:white;
 }
 #side-nav span{
 display:block;
@@ -36,7 +36,7 @@ Padding:8px 8px 8px 32px;
 }
 #side-nav #close-btn{
 top:0;
-right:210px;
+right:460px;
 margin-left:50px;
 font-size:25px;
 color:white;
