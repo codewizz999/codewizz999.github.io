@@ -14,7 +14,7 @@ function closenav(){
        x.style.width="200px";
     } else {
       x.style.width="0";
-      Y.style.marginLeft="0px";
+      y.style.marginLeft="0px";
     }
 
 }
@@ -27,7 +27,7 @@ function opennav(){
        x.style.width="200px";
     } else {
       x.style.width="0";
-      Y.style.marginLeft="0px";
+      y.style.marginLeft="0px";
     }
 
 }
