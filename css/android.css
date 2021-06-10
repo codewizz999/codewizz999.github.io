@@ -1,7 +1,10 @@
 body{
 font-size:10pt;
 }
-
+#nav input{
+border:0px;
+background-color:transparent;
+}
 #nav ul.navl{
 display: flex;
   flex-direction: row;
@@ -35,6 +38,13 @@ top:0;
 right:25px;
 margin-left:50px;
 font-size:25px;
+color:white;
+background-color:red;
+box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.07);
+border:0px;
+}
+#close-btn :active{
+box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.00);
 }
 #content{
 marginLeft:0;
