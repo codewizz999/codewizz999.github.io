@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <style>body{
+  margin:0;}</style>
+</head>
+
+<body>
+  
+  
+  <div class="world" id="world"></div>
+<script src="https://threejs.org/build/three.js">load</script >
+  
+  <script>
+
+    window.addEventListener('load', () => {
+
+      registerSW();
+
+    });
+ 
+
+    // Register the Service Worker
+
+    async function registerSW() {
+
+      if ('serviceWorker' in navigator) {
+
+        try {
+
+          await navigator
+
+                .serviceWorker
+
+                .register('serviceworker.js');
+
+        }
+
+        catch (e) {
+
+          console.log('SW registration failed');
+
+        }
+
+      }
+
+    }
+
+ </script>
+  <script src="mainn.js"></script>
+  <script src="serviceworker.js"></script>
+</body>
+</html>
