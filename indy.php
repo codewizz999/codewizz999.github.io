@@ -30,7 +30,7 @@
 br/><br/>                                     <input type="Submit" value="Upload" 
 name="upload" />                                    
 </form>
-  <?php include 'up.php';?>                 
+  <?php include '/up.php';?>                 
 <script src="js/main.js"></script>          
 </body>                                     
 </html>
