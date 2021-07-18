@@ -1,6 +1,6 @@
 <?php     
 alert('staring'); 
-  $myPost = json_decode('website-data/readonly.json',true);
+  $myPost = json_decode('/website-data/readonly.json',true);
  $myPostId= 1;
 
 foreach($myPost as &$e){
@@ -13,5 +13,5 @@ $e[1]['post'] == "yaayy awesome";
 
 }
 $newPostData = json_encode($myPostId, JSON_PRETTY_PRINT);
-echo file_put_contents('website-data/readonly.json',$newPostData);
+echo file_put_contents('/website-data/readonly.json',$newPostData);
   ?>
