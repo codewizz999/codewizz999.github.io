@@ -1,4 +1,5 @@
-<?php      
+<?php     
+alert('staring'); 
   $myPost = json_decode('website-data/readonly.json',true);
  $myPostId= 1;
 
