@@ -1,18 +1,18 @@
 <?php      
-  if(isset($_POST['upload'])){
-if($_POST['foldername'] != ""){   
-$foldername=$_POST['foldername'];
- if(!is_dir($foldername)) 
-mkdir($foldername);    
-foreach($_FILES['files']['name'] as $i => $name) {    
-if(strlen($_FILES['files']['name'][$i]) > 1) {  
-move_uploaded_file($_FILES['files']['tmp_name'][$i],$foldername."/".$name);  
-  }                                       
-}                                           
-echo "Folder is successfully uploaded";    
-}                                           
-else                                            
-echo "Upload folder name is empty";
+  $myPost = json_decode('somejson',true);
+ $myPostId= 1;
 
-  }
+foreach($myPost as &$e){
+if($e['id'] == $myPostId){
+if($e['post'] =="naah"){
+$e['post'] == "amos";
+}
+if($e['id'] == "yaah"){
+if($e['post'] =="yaah"){
+$e['id'] == 3;
+}
+}
+}
+$newPostData = json_encode($myPostId, JSON_PRETTY_PRINT);
+echo file_put_contents('somejson',$newPostData);
   ?>
